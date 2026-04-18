@@ -1047,7 +1047,7 @@ window.__require = function e(t, n, o) {
           this.canClick && 0 == cc.find("Canvas/uiEffectPanel").childrenCount && a.default.Instance.RestartGame()
         }, t.prototype.OnClickMoreGame = function () {
           this.canClick && (this.moreGameBtn.off(cc.Node.EventType.TOUCH_START, this.OnClickMoreGame, this), this.canClick = !1, this.moreGameBtn.runAction(cc.sequence(cc.scaleTo(.1, 1.1), cc.scaleTo(.1, 1))), this.scheduleOnce(function () {
-            window.location.href = "http://m.wesane.com/"
+            window.location.href = "https://www.douyin.com/user/MS4wLjABAAAATf6GXDOKOO9MSz_FkTUZfcMG7UQZwF3f9as2jrzSrQc"
           }, .15))
         }, t.prototype.GetContentByScore = function (e) {
           var t = Math.ceil(e / 1500 * 94);
