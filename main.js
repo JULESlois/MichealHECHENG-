@@ -124,6 +124,7 @@ window.boot = function() {
         cc.loader.downloader._subpackages = settings.subpackages;
 
         cc.view.enableRetina(true);
+        cc.view.setDesignResolutionSize(1280, 720, cc.ResolutionPolicy.SHOW_ALL);
         cc.view.resizeWithBrowserSize(true);
 
         if (!false && !false) {
