@@ -37,8 +37,8 @@ let clickChangeFruit = false;
 // 广告链接：false 或为空字符串表示不会跳转到广告
 let adLink = 'https://space.bilibili.com/443651466';
 
-// 修改网页标题：将 "合成大西瓜" 进行替换
-document.getElementsByTagName("title")[0].innerText = '合成米雪儿';
+// 修改网页标题：将 "合成米雪儿" 进行替换（中文标题）
+// 注意：英文环境下会自动显示 "Synthetic Michele"，无需在此修改
 
 // 开启选分弹窗：将 false 改为 true
 let selectModal = false;

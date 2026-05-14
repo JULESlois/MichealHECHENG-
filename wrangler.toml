@@ -1,0 +1,6 @@
+name = "klbqmi"
+compatibility_date = "2026-05-14"
+assets = { directory = "." }
+
+# 减少文件监控触发重载
+watch_exclude = ["node_modules/**", ".git/**", "*.gif", "*.png", "*.jpg", "src/project.js"]
